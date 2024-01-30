@@ -1,5 +1,5 @@
 //WPU Programming Challenge
-//Day 1/366
+//Day 3/366
 //https://www.codewars.com/kata/59ca8246d751df55cc00014c/train/javascript
 
 // function hero(bullets, dragons){
