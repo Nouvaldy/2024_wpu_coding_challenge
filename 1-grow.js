@@ -1,5 +1,5 @@
 //WPU Programming Challenge
-//Day 1/366
+//Day 1/366 kita pastikan
 //https://www.codewars.com/kata/57f780909f7e8e3183000078/train/javascript
 
 // function grow(x){
