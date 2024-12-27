@@ -8,7 +8,7 @@
 //       result += ${i} sheep...;
 //     }
 //         return result;
-//   }
+// }
   
 const countSheep = (num) => {return [...Array(num)].map((_,i) => `${i+1} sheep...` ).join('')};
   

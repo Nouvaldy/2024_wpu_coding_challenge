@@ -18,4 +18,4 @@ function smash (x){
     return x.join(" ")
 }
 
- console.log(smash(["this", "is", "a", "really", "long", "sentence"]))
+ console.log(smash(["this", "is", "a", "really", "long", "sentence"])) //"this is a really long sentence"

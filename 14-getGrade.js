@@ -11,8 +11,8 @@ function getGrade (s1, s2, s3) {
     else return 'F';
 }
 
-console.log(getGrade(95,90,93));
-console.log(getGrade(89,89,90));
-console.log(getGrade(70,70,70));
-console.log(getGrade(65,70,59));
-console.log(getGrade(58,59,60));
+console.log(getGrade(95,90,93)); //A
+console.log(getGrade(89,89,90)); //B
+console.log(getGrade(70,70,70)); //C
+console.log(getGrade(65,70,59)); //D
+console.log(getGrade(58,59,60)); //E

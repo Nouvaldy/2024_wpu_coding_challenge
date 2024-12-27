@@ -8,4 +8,4 @@
 
 zeroFuel = (distanceToPump, mpg, fuelLeft) => distanceToPump/mpg <= fuelLeft
 
-  console.log(zeroFuel(10, 25, 2))
+  console.log(zeroFuel(10, 25, 2)) //true

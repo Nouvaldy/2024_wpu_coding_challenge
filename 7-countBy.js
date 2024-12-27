@@ -12,4 +12,4 @@ function countBy(x, n) {
     return result;
   }
 
-  console.log(countBy(9,4))
+  console.log(countBy(9,4)) //[9, 18, 27, 36]

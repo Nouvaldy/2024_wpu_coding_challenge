@@ -29,3 +29,5 @@ const rps = (p1, p2) => {
       }
   }
 }
+
+console.log(rps("scissors", "rock")) //Player 2 won!

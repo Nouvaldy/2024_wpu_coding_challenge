@@ -16,4 +16,4 @@
 
 DNAtoRNA = (dna) => dna.replaceAll("T", "U")
 
-  console.log(DNAtoRNA("GTCTAT"))
+  console.log(DNAtoRNA("GTCTAT")) //GUCUAU

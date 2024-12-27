@@ -10,4 +10,4 @@ function reverseSeq(n){
   return result;
 }
 
-  console.log(reverseSeq(3))
+  console.log(reverseSeq(3)) //[3, 2, 1]

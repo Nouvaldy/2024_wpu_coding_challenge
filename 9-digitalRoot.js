@@ -15,7 +15,7 @@ function digitalRoot(n) {
 
 // Examples
 console.log(digitalRoot(16));       // Output: 7
-console.log(digitalRoot(942));      // Output: 6
+console.log(digitalRoot(942));      // 9+4+2 = 15 => 1+5 = 6 Output: 6
 console.log(digitalRoot(132189));   // Output: 6
 console.log(digitalRoot(493193));   // Output: 2
 console.log(digitalRoot('015'));    // Output: 6 (if input is provided as a string)
