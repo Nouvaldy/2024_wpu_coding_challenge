@@ -1,5 +1,5 @@
 //WPU Programming Challenge
-//Day 14/366
+//Day 15/366
 //https://www.codewars.com/kata/576b93db1129fcf2200001e6
 
 function sumArray(array) {
