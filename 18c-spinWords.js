@@ -23,10 +23,10 @@
 // }
 
 function spinWords(str) {
-    return str.split(' ').map((word) => 
-        word.length > 4 ? word.split('').reverse().join('') : word
-    ).join(' ');
+    return str.split(' ').map((word) => {
+        return word.length > 4 ? word.split('').reverse().join('') : word
+    }).join(' ');
 }
 
-console.log((spinWords("Hey fellow warriors")));
-console.log((spinWords("Arek Malang, ayo pake boso kebalikan")));
+console.log((spinWords("Hey fellow warriors"))); //Hey wollef sroirraw
+console.log((spinWords("Arek Malang, ayo pake boso kebalikan"))); //Arek ,gnalaM ayo pake boso nakilabek

@@ -13,10 +13,11 @@
 // }
 
 function generateHashtag (str) {
-    const result = str.split(' ').reduce((acc, curr) =>
-        acc + curr.charAt(0).toUpperCase() + curr.slice(1), '#');
+    const result = str.split(' ').reduce((acc, curr) => {
+        return acc + curr.charAt(0).toUpperCase() + curr.slice(1);
+    }, '#');
     return (result.length === 1 || result.length > 140) ? false : result;
 }
 
-console.log(generateHashtag("       hellothere      thanks for trying my Kata"));
-console.log(generateHashtag("a".repeat(140)))
+console.log(generateHashtag("   akhir tahun     2024    ! ")); // #AkhirTahun2024!
+console.log(generateHashtag("a".repeat(140))) //...aa
