@@ -1,5 +1,5 @@
 //WPU Programming Challenge
-//Day 120/366 bonus
+//Day 20/366 bonus
 //https://www.codewars.com/kata/5526fc09a1bbd946250002dc/
 
 // function findOutlier(integers) {
