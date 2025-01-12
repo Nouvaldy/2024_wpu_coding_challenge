@@ -13,16 +13,22 @@
 //     return memo[n] = fibonaci(n-1, memo) + fibonaci(n-2, memo);
 // }
 
-function productFib(prod) {
-    function fibonaci(n, memo) {
-        memo = memo || {};
-        if (memo[n]) return memo[n];
-        if (n <= 1) return 1;
-        return memo[n] = fibonaci(n-1, memo) + fibonaci(n-2, memo);
-    }
+// function productFib(prod) {
+//     function fibonaci(n, memo) {
+//         memo = memo || {};
+//         if (memo[n]) return memo[n];
+//         if (n <= 1) return 1;
+//         return memo[n] = fibonaci(n-1, memo) + fibonaci(n-2, memo);
+//     }
 
-    for (n=0; fibonaci(n)*fibonaci(n+1) < prod; n++) {}
-    return [fibonaci(n), fibonaci(n+1), fibonaci(n)*fibonaci(n+1) === prod];
+//     for (n=0; fibonaci(n)*fibonaci(n+1) < prod; n++) {}
+//     return [fibonaci(n), fibonaci(n+1), fibonaci(n)*fibonaci(n+1) === prod];
+// }
+
+function productFib(prod){
+    let [a, b] = [0, 1];
+    while(a * b < prod) [a, b] = [b, a + b];
+    return [a, b, a * b === prod];
 }
 
 console.log(productFib(2472169789339634));
